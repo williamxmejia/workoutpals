@@ -1,13 +1,11 @@
 <script setup>
-import NavBar from './components/NavBar.vue';
+import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <nav>
-    <NavBar /> 
+  <nav class="nav-b-color">
+    <NavBar />
   </nav>
+  <router-view></router-view>
 </template>
-
-<style scoped>
-
-</style>
+<style scoped></style>
