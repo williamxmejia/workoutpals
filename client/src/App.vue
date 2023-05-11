@@ -8,4 +8,6 @@ import NavBar from './components/NavBar.vue'
   </nav>
   <router-view></router-view>
 </template>
+
 <style scoped></style>
+
